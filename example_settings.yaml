@@ -1,0 +1,19 @@
+version: 1.0
+
+esphome:
+  - host: 'device1.local'
+    port: 6053
+    password: 'MyPassword'
+
+  - host: 'device2.local'
+    port: 6053
+    password: 'MyPassword'
+
+  - host: 'device3.local'
+    port: 6053
+    password: 'MyPassword'
+
+influxdb:
+  host: 'localhost'
+  port: 8086
+  database: 'esphome'
